@@ -117,7 +117,7 @@
 
       // CASNOS Calculations
       const casnosSocialSecurity = income * 0.075;
-      const casnosSelfEmployedTax = income * 0.05;
+      const casnosSelfEmployedTax = income * 0.005;
       const casnosTotalTaxes = casnosSocialSecurity + casnosSelfEmployedTax;
       const casnosPension =
         years < 15 ? 0 : income * Math.min(0.025 * years, 0.8);
